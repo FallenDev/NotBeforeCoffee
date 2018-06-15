@@ -26,10 +26,24 @@
     margin: 15px;
 }
 
+.badge {
+    float: right;
+    align-content: center;
+    margin-right:auto;
+}
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
     .carousel-caption {
         display: none;
     }
+    .badge {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+
 }

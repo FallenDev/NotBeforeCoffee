@@ -22,7 +22,21 @@ namespace NotBeforeCoffee.Controllers
             return View();
         }
 
+        public IActionResult Claim()
+        {
+            ViewData["Message"] = "";
+
+            return View();
+        }
+
         public IActionResult Contact()
+        {
+            ViewData["Message"] = "";
+
+            return View();
+        }
+
+        public IActionResult IDCard()
         {
             ViewData["Message"] = "";
 
