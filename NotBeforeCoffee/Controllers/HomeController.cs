@@ -17,31 +17,53 @@ namespace NotBeforeCoffee.Controllers
 
         public IActionResult ERIEPay()
         {
-            ViewData["Message"] = "";
-
             return View();
         }
 
         public IActionResult Claim()
         {
-            ViewData["Message"] = "";
-
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "";
-
             return View();
         }
 
         public IActionResult IDCard()
         {
-            ViewData["Message"] = "";
-
             return View();
         }
+
+        public IActionResult Alert()
+        {
+            return View();
+        }
+
+        public IActionResult Autopay()
+        {
+            return View();
+        }
+        public IActionResult Billing()
+        {
+            return View();
+        }
+        public IActionResult ChatBot()
+        {
+            return View();
+        }
+        public IActionResult CustContact()
+        {
+            return View();
+        }
+        public IActionResult Documents()
+        {
+            return View();
+        }
+        /*public IActionResult IDCard()
+        {
+            return View();
+        }*/
 
         public IActionResult Error()
         {
