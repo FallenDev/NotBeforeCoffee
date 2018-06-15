@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "My Policies";
+    ViewData["Title"] = "";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
@@ -7,26 +7,19 @@
 
 
 <div class="row">
-    <div class="col-md-push-3">
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Auto (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Life (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Home (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-    </div>
+    <form>
+        Alert Preferences:<br />
+        <input type="checkbox" name="cell" />Txt2Cell<br />
+        <input type="checkbox" name="homephone" />Voicemail Home<br />
+        <input type="checkbox" name="email" />E-Mail Me<br />
+        <input type="checkbox" name="mail" />Mail<br />
+        <button class="btn-primary">Update!</button>
+        <br />
+        <br />
+        Alert Types:<br />
+        <input type="checkbox" name="cell" />Payment Reminder<br />
+        <input type="checkbox" name="homephone" />Renewal<br />
+        <input type="checkbox" name="email" />Agency Alerts<br />
+        <button class="btn-primary">Update!</button>
+    </form>
 </div>
-
-<p>ERIEpay will aid customer's payment experience.</p>

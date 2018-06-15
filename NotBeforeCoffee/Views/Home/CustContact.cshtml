@@ -1,32 +1,33 @@
 ﻿@{
-    ViewData["Title"] = "My Policies";
+    ViewData["Title"] = "";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
 
 
-<div class="row">
-    <div class="col-md-push-3">
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Auto (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Life (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="~/Views/Home/ID.cshtml">Home (Q92 8327 928)</a>
-                <button class="btn-primary" style="float:right; margin-right:50px;" href="https://www.fiserv.com/industries/bank-platforms/multi-platform-solutions/web-services.aspx">Send Payment</button>
-            </li>
-        </ul>
-    </div>
+<div>
+    <h2>Update Contact Information</h2>
+    <form>
+        First Name:<br />
+        <input type="text" name="Firstname" /><br />
+        Last Name:<br />
+        <input type="text" name="Lastname" /><br />
+        Address:<br />
+        <input type="text" name="Address" /><br />
+        City:<br />
+        <input type="text" name="City" /><br />
+        State:<br />
+        <input type="text" name="State" /><br />
+        Zip:<br />
+        <input type="text" name="Zip" /><br />
+        Home Phone:
+        <input type="text" name="HPhone" /><br />
+        Cell:
+        <input type="text" name="CPhone" /><br />
+        E-mail:
+        <input type="text" name="eMail" /><br />
+        <br />
+        <button class="btn-primary">Update!</button>
+    </form>
 </div>
-
-<p>ERIEpay will aid customer's payment experience.</p>
