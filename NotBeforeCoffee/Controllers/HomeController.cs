@@ -15,7 +15,7 @@ namespace NotBeforeCoffee.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult ERIEPay()
         {
             ViewData["Message"] = "";
 
