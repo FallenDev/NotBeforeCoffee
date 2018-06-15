@@ -60,10 +60,10 @@ namespace NotBeforeCoffee.Controllers
         {
             return View();
         }
-        /*public IActionResult IDCard()
+        public IActionResult AgentNow()
         {
             return View();
-        }*/
+        }
 
         public IActionResult Error()
         {
